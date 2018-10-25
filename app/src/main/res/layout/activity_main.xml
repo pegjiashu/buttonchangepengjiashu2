@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/action_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/tab_item_home_normal" />
+
+
+    <ImageButton
+        android:id="@+id/action_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/tab_item_category_focus"/>
+
+
+    <ImageButton
+        android:id="@+id/action_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/tab_item_personal_focus"/>
+
+
+    <ImageButton
+        android:id="@+id/action_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/tab_item_cart_focus" />
+
+</LinearLayout>
